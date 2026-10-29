@@ -1,0 +1,14 @@
+{
+  "device_kind": "loopback",
+  "test_signal": "Locally generated digital silence; no spoken audio saved or transcribed",
+  "native_sample_rate": 48000,
+  "native_channels": 2,
+  "initialization_seconds": 1.063,
+  "observed_audio_seconds": 4.9,
+  "peak_level": 2e-05,
+  "driver_overflows": 0,
+  "queue_dropped_frames": 0,
+  "padded_frames": 0,
+  "warnings": [],
+  "errors": []
+}

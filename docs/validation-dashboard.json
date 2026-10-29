@@ -1,0 +1,30 @@
+{
+  "inference": "simulated; no audio capture or extra model load",
+  "errors": [],
+  "resource_snapshot": {
+    "gpu_temperature_c": 45,
+    "gpu_total_bytes": 8585740288,
+    "gpu_used_bytes": 251658240,
+    "gpu_util_percent": 0,
+    "process_cpu_percent": 0.05320416780208035,
+    "process_rss_bytes": 101142528,
+    "ram_available_bytes": 1987354624,
+    "ram_total_bytes": 16894451712,
+    "system_cpu_percent": 4.656498852746659
+  },
+  "session_metrics": {
+    "elapsed_seconds": 4.608999999938533,
+    "queue_depth": 0,
+    "queue_audio_seconds": 0,
+    "dropped_segments": 0,
+    "driver_overflows": 0,
+    "queue_dropped_seconds": 0,
+    "processing_seconds": 0.3,
+    "audio_seconds": 2,
+    "realtime_factor": 0.15,
+    "subtitle_count": 1
+  },
+  "archive_path": "D:\\ForRunning\\ForDev\\SimulInterp\\.cache\\controller-smoke-data\\exports\\sessions\\20261028-101822-151c47f2.srt",
+  "stopped_safely": true,
+  "monitor_stopped": true
+}

@@ -1,0 +1,73 @@
+{
+  "scope": "Synthetic English and short German fixture; VAD retention, not ASR accuracy or this class audio",
+  "whisper_loaded": false,
+  "audio_captured": false,
+  "cases": [
+    {
+      "file": "english-smoke.wav",
+      "gain_db": 0,
+      "input_seconds": 9.868,
+      "rms_dbfs": -20,
+      "outer_chunks": 3,
+      "outer_retained_seconds": 8.56,
+      "inner_retained_seconds": 8.56,
+      "inner_rejected_chunks": 0,
+      "inner_seconds": 0.535
+    },
+    {
+      "file": "english-smoke.wav",
+      "gain_db": -24,
+      "input_seconds": 9.868,
+      "rms_dbfs": -44,
+      "outer_chunks": 3,
+      "outer_retained_seconds": 8.3,
+      "inner_retained_seconds": 8.3,
+      "inner_rejected_chunks": 0,
+      "inner_seconds": 0.01
+    },
+    {
+      "file": "english-smoke.wav",
+      "gain_db": -36,
+      "input_seconds": 9.868,
+      "rms_dbfs": -56,
+      "outer_chunks": 3,
+      "outer_retained_seconds": 8.12,
+      "inner_retained_seconds": 8.12,
+      "inner_rejected_chunks": 0,
+      "inner_seconds": 0.009
+    },
+    {
+      "file": "german-guten-morgen.ogg",
+      "gain_db": 0,
+      "input_seconds": 2.2,
+      "rms_dbfs": -15,
+      "outer_chunks": 1,
+      "outer_retained_seconds": 1.7,
+      "inner_retained_seconds": 1.7,
+      "inner_rejected_chunks": 0,
+      "inner_seconds": 0.002
+    },
+    {
+      "file": "german-guten-morgen.ogg",
+      "gain_db": -24,
+      "input_seconds": 2.2,
+      "rms_dbfs": -39,
+      "outer_chunks": 1,
+      "outer_retained_seconds": 1.58,
+      "inner_retained_seconds": 1.58,
+      "inner_rejected_chunks": 0,
+      "inner_seconds": 0.002
+    },
+    {
+      "file": "german-guten-morgen.ogg",
+      "gain_db": -36,
+      "input_seconds": 2.2,
+      "rms_dbfs": -51,
+      "outer_chunks": 1,
+      "outer_retained_seconds": 1.48,
+      "inner_retained_seconds": 1.48,
+      "inner_rejected_chunks": 0,
+      "inner_seconds": 0.002
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "input": "Synthetic English file fed to capture callback; no hardware recording",
+  "audio_seconds": 9.868,
+  "total_seconds_including_model_load": 30.797,
+  "processing_seconds_per_chunk": [
+    1.735,
+    0.859,
+    1.0
+  ],
+  "processing_real_time_factor": 0.364,
+  "observed_gpu_memory_at_listening_mb": 1039,
+  "subtitles": [
+    {
+      "start": 0.0,
+      "end": 0.64,
+      "source": "Good morning.",
+      "text": "早上好。",
+      "language": "en"
+    },
+    {
+      "start": 1.42,
+      "end": 4.58,
+      "source": "Today we are talking about language learning and technology",
+      "text": "今天我们谈论语言学习和技术。",
+      "language": "en"
+    },
+    {
+      "start": 5.38,
+      "end": 8.9,
+      "source": "You can read Chinese subtitles while listening to this presentation.",
+      "text": "您可以在听到此演示文稿时阅读中国字幕。",
+      "language": "en"
+    }
+  ]
+}

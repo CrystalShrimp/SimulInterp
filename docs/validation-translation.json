@@ -1,0 +1,17 @@
+{
+  "load_seconds": 2.844,
+  "examples": [
+    {
+      "language": "en",
+      "source": "Good morning. Today we are talking about language learning and technology.",
+      "text": "早上好。今天,我们正在谈论语言学习和技术。",
+      "seconds": 0.547
+    },
+    {
+      "language": "de",
+      "source": "Guten Morgen. Heute sprechen wir über das Lernen von Sprachen und neue Technologien.",
+      "text": "早安。今天,我们正在谈论语言学习和新技术。",
+      "seconds": 0.625
+    }
+  ]
+}

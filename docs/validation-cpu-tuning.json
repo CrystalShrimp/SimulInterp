@@ -1,0 +1,468 @@
+{
+  "method": "CPU INT8 M2M100; beam=1; return_scores=False; one model at a time",
+  "corpus": [
+    {
+      "language": "en",
+      "source": "Today we discuss language learning and technology."
+    },
+    {
+      "language": "de",
+      "source": "Heute besprechen wir die Grundlagen der Elektrotechnik."
+    },
+    {
+      "language": "en",
+      "source": "Please compare these two methods and explain why the second experiment produced a different result."
+    },
+    {
+      "language": "de",
+      "source": "Wenn die Temperatur steigt, bewegen sich die Teilchen schneller und der Druck nimmt zu."
+    },
+    {
+      "language": "en",
+      "source": "The probability depends on the available information and the assumptions used in the model."
+    },
+    {
+      "language": "de",
+      "source": "Diese Gleichung beschreibt den Zusammenhang zwischen Energie, Masse und Geschwindigkeit."
+    }
+  ],
+  "rounds_requested": 2,
+  "logical_cpu_count": 32,
+  "selection_rule": "Within 10% of fastest median corpus time, prefer fewer threads",
+  "limitations": "Short authored DE/EN text corpus, current background load; sampled RSS is not a guaranteed peak. Not a 90-minute hardware soak or translation-quality evaluation.",
+  "initial_resources": {
+    "ram_total_bytes": 16894451712,
+    "ram_available_bytes": 1182117888,
+    "process_rss_bytes": 30445568,
+    "system_cpu_percent": null,
+    "process_cpu_percent": null,
+    "gpu_total_bytes": 8585740288,
+    "gpu_used_bytes": 1349218304,
+    "gpu_util_percent": 0,
+    "gpu_temperature_c": 50
+  },
+  "runs": [
+    {
+      "round": 1,
+      "threads": 4,
+      "load_seconds": 4.941479500033893,
+      "total_seconds": 2.8236994999460876,
+      "process_cpu_seconds": 11.140625,
+      "average_busy_cores": 3.945400351635401,
+      "machine_cpu_percent": 12.329376098860628,
+      "loaded_resources": {
+        "ram_total_bytes": 16894451712,
+        "ram_available_bytes": 602554368,
+        "process_rss_bytes": 677711872,
+        "system_cpu_percent": 15.619477714510111,
+        "process_cpu_percent": 3.1444958744691514,
+        "gpu_total_bytes": 8585740288,
+        "gpu_used_bytes": 1349218304,
+        "gpu_util_percent": 0,
+        "gpu_temperature_c": 50
+      },
+      "after_resources": {
+        "ram_total_bytes": 16894451712,
+        "ram_available_bytes": 645316608,
+        "process_rss_bytes": 678293504,
+        "system_cpu_percent": 22.310874704491727,
+        "process_cpu_percent": 12.339078462685205,
+        "gpu_total_bytes": 8585740288,
+        "gpu_used_bytes": 1349218304,
+        "gpu_util_percent": 0,
+        "gpu_temperature_c": 51
+      },
+      "sentences": [
+        {
+          "language": "en",
+          "seconds": 0.31880330003332347,
+          "translation": "今天,我们讨论语言学习和技术。"
+        },
+        {
+          "language": "de",
+          "seconds": 0.4065730000147596,
+          "translation": "今天,我们就讨论电气工程的基本原则。"
+        },
+        {
+          "language": "en",
+          "seconds": 0.5629246000899002,
+          "translation": "请比较这两种方法,并解释为什么第二次实验产生了不同的结果。"
+        },
+        {
+          "language": "de",
+          "seconds": 0.4755353000946343,
+          "translation": "随着温度上升,粒子移动更快,压力增加。"
+        },
+        {
+          "language": "en",
+          "seconds": 0.5456453000660986,
+          "translation": "概率取决于可用的信息和模型中使用的假设。"
+        },
+        {
+          "language": "de",
+          "seconds": 0.514172499999404,
+          "translation": "这个方程式描述了能量、质量和速度之间的联系。"
+        }
+      ],
+      "anomaly_review_required": false,
+      "exclude_from_selection": false
+    },
+    {
+      "round": 1,
+      "threads": 6,
+      "load_seconds": 4.3489503000164405,
+      "total_seconds": 2.324055499979295,
+      "process_cpu_seconds": 13.734375,
+      "average_busy_cores": 5.909658784018867,
+      "machine_cpu_percent": 18.46768370005896,
+      "loaded_resources": {
+        "ram_total_bytes": 16894451712,
+        "ram_available_bytes": 536506368,
+        "process_rss_bytes": 679841792,
+        "system_cpu_percent": 21.01841820151679,
+        "process_cpu_percent": 4.510185287097569,
+        "gpu_total_bytes": 8585740288,
+        "gpu_used_bytes": 1349218304,
+        "gpu_util_percent": 100,
+        "gpu_temperature_c": 51
+      },
+      "after_resources": {
+        "ram_total_bytes": 16894451712,
+        "ram_available_bytes": 645042176,
+        "process_rss_bytes": 679452672,
+        "system_cpu_percent": 32.80974232262619,
+        "process_cpu_percent": 18.460946119618797,
+        "gpu_total_bytes": 8585740288,
+        "gpu_used_bytes": 1349218304,
+        "gpu_util_percent": 0,
+        "gpu_temperature_c": 50
+      },
+      "sentences": [
+        {
+          "language": "en",
+          "seconds": 0.28842959995381534,
+          "translation": "今天,我们讨论语言学习和技术。"
+        },
+        {
+          "language": "de",
+          "seconds": 0.3277501999400556,
+          "translation": "今天,我们就讨论电气工程的基本原则。"
+        },
+        {
+          "language": "en",
+          "seconds": 0.46256340004038066,
+          "translation": "请比较这两种方法,并解释为什么第二次实验产生了不同的结果。"
+        },
+        {
+          "language": "de",
+          "seconds": 0.38336370000615716,
+          "translation": "随着温度上升,粒子移动更快,压力增加。"
+        },
+        {
+          "language": "en",
+          "seconds": 0.4488541999598965,
+          "translation": "概率取决于可用的信息和模型中使用的假设。"
+        },
+        {
+          "language": "de",
+          "seconds": 0.4130507999798283,
+          "translation": "这个方程式描述了能量、质量和速度之间的联系。"
+        }
+      ],
+      "anomaly_review_required": false,
+      "exclude_from_selection": false
+    },
+    {
+      "round": 1,
+      "threads": 8,
+      "load_seconds": 4.398813300067559,
+      "total_seconds": 2.037740100058727,
+      "process_cpu_seconds": 15.640625,
+      "average_busy_cores": 7.675475886031414,
+      "machine_cpu_percent": 23.98586214384817,
+      "loaded_resources": {
+        "ram_total_bytes": 16894451712,
+        "ram_available_bytes": 776134656,
+        "process_rss_bytes": 681250816,
+        "system_cpu_percent": 16.19523606975755,
+        "process_cpu_percent": 5.251707761818906,
+        "gpu_total_bytes": 8585740288,
+        "gpu_used_bytes": 1349218304,
+        "gpu_util_percent": 0,
+        "gpu_temperature_c": 50
+      },
+      "after_resources": {
+        "ram_total_bytes": 16894451712,
+        "ram_available_bytes": 803090432,
+        "process_rss_bytes": 680906752,
+        "system_cpu_percent": 38.057901085645355,
+        "process_cpu_percent": 23.99069725413231,
+        "gpu_total_bytes": 8585740288,
+        "gpu_used_bytes": 1349218304,
+        "gpu_util_percent": 100,
+        "gpu_temperature_c": 51
+      },
+      "sentences": [
+        {
+          "language": "en",
+          "seconds": 0.2326514000305906,
+          "translation": "今天,我们讨论语言学习和技术。"
+        },
+        {
+          "language": "de",
+          "seconds": 0.29229730006773025,
+          "translation": "今天,我们就讨论电气工程的基本原则。"
+        },
+        {
+          "language": "en",
+          "seconds": 0.4250956999603659,
+          "translation": "请比较这两种方法,并解释为什么第二次实验产生了不同的结果。"
+        },
+        {
+          "language": "de",
+          "seconds": 0.32641249999869615,
+          "translation": "随着温度上升,粒子移动更快,压力增加。"
+        },
+        {
+          "language": "en",
+          "seconds": 0.39791230007540435,
+          "translation": "概率取决于可用的信息和模型中使用的假设。"
+        },
+        {
+          "language": "de",
+          "seconds": 0.3633266999386251,
+          "translation": "这个方程式描述了能量、质量和速度之间的联系。"
+        }
+      ],
+      "anomaly_review_required": false,
+      "exclude_from_selection": false
+    },
+    {
+      "round": 2,
+      "threads": 8,
+      "load_seconds": 4.583900900091976,
+      "total_seconds": 1.9703649999573827,
+      "process_cpu_seconds": 15.546875,
+      "average_busy_cores": 7.890352802823977,
+      "machine_cpu_percent": 24.65735250882493,
+      "loaded_resources": {
+        "ram_total_bytes": 16894451712,
+        "ram_available_bytes": 823635968,
+        "process_rss_bytes": 681377792,
+        "system_cpu_percent": 16.96858049329649,
+        "process_cpu_percent": 5.573331934600555,
+        "gpu_total_bytes": 8585740288,
+        "gpu_used_bytes": 1349218304,
+        "gpu_util_percent": 100,
+        "gpu_temperature_c": 52
+      },
+      "after_resources": {
+        "ram_total_bytes": 16894451712,
+        "ram_available_bytes": 860471296,
+        "process_rss_bytes": 681467904,
+        "system_cpu_percent": 37.92662116040955,
+        "process_cpu_percent": 24.561898518232535,
+        "gpu_total_bytes": 8585740288,
+        "gpu_used_bytes": 1349218304,
+        "gpu_util_percent": 0,
+        "gpu_temperature_c": 50
+      },
+      "sentences": [
+        {
+          "language": "en",
+          "seconds": 0.22242679994087666,
+          "translation": "今天,我们讨论语言学习和技术。"
+        },
+        {
+          "language": "de",
+          "seconds": 0.2759519999381155,
+          "translation": "今天,我们就讨论电气工程的基本原则。"
+        },
+        {
+          "language": "en",
+          "seconds": 0.39164699998218566,
+          "translation": "请比较这两种方法,并解释为什么第二次实验产生了不同的结果。"
+        },
+        {
+          "language": "de",
+          "seconds": 0.33085409994237125,
+          "translation": "随着温度上升,粒子移动更快,压力增加。"
+        },
+        {
+          "language": "en",
+          "seconds": 0.3851536000147462,
+          "translation": "概率取决于可用的信息和模型中使用的假设。"
+        },
+        {
+          "language": "de",
+          "seconds": 0.36428869992960244,
+          "translation": "这个方程式描述了能量、质量和速度之间的联系。"
+        }
+      ],
+      "anomaly_review_required": false,
+      "exclude_from_selection": false
+    },
+    {
+      "round": 2,
+      "threads": 6,
+      "load_seconds": 4.510018999921158,
+      "total_seconds": 2.2518143000779673,
+      "process_cpu_seconds": 13.359375,
+      "average_busy_cores": 5.932716121190563,
+      "machine_cpu_percent": 18.53973787872051,
+      "loaded_resources": {
+        "ram_total_bytes": 16894451712,
+        "ram_available_bytes": 861802496,
+        "process_rss_bytes": 682586112,
+        "system_cpu_percent": 14.437784208350559,
+        "process_cpu_percent": 5.025050499702947,
+        "gpu_total_bytes": 8585740288,
+        "gpu_used_bytes": 1349218304,
+        "gpu_util_percent": 0,
+        "gpu_temperature_c": 50
+      },
+      "after_resources": {
+        "ram_total_bytes": 16894451712,
+        "ram_available_bytes": 827068416,
+        "process_rss_bytes": 682209280,
+        "system_cpu_percent": 29.132539091586,
+        "process_cpu_percent": 18.359375,
+        "gpu_total_bytes": 8585740288,
+        "gpu_used_bytes": 1483436032,
+        "gpu_util_percent": 100,
+        "gpu_temperature_c": 49
+      },
+      "sentences": [
+        {
+          "language": "en",
+          "seconds": 0.24996509996708483,
+          "translation": "今天,我们讨论语言学习和技术。"
+        },
+        {
+          "language": "de",
+          "seconds": 0.32180529995821416,
+          "translation": "今天,我们就讨论电气工程的基本原则。"
+        },
+        {
+          "language": "en",
+          "seconds": 0.4445148999802768,
+          "translation": "请比较这两种方法,并解释为什么第二次实验产生了不同的结果。"
+        },
+        {
+          "language": "de",
+          "seconds": 0.38680639991071075,
+          "translation": "随着温度上升,粒子移动更快,压力增加。"
+        },
+        {
+          "language": "en",
+          "seconds": 0.44274810003116727,
+          "translation": "概率取决于可用的信息和模型中使用的假设。"
+        },
+        {
+          "language": "de",
+          "seconds": 0.40592429996468127,
+          "translation": "这个方程式描述了能量、质量和速度之间的联系。"
+        }
+      ],
+      "anomaly_review_required": false,
+      "exclude_from_selection": false
+    },
+    {
+      "round": 2,
+      "threads": 4,
+      "load_seconds": 4.208198199979961,
+      "total_seconds": 641.9210599999642,
+      "process_cpu_seconds": 14.640625,
+      "average_busy_cores": 0.022807516238835996,
+      "machine_cpu_percent": 0.0712734882463625,
+      "loaded_resources": {
+        "ram_total_bytes": 16894451712,
+        "ram_available_bytes": 823795712,
+        "process_rss_bytes": 683139072,
+        "system_cpu_percent": 15.066206743073328,
+        "process_cpu_percent": 4.354312031988113,
+        "gpu_total_bytes": 8585740288,
+        "gpu_used_bytes": 1349218304,
+        "gpu_util_percent": 0,
+        "gpu_temperature_c": 49
+      },
+      "after_resources": {
+        "ram_total_bytes": 16894451712,
+        "ram_available_bytes": 276017152,
+        "process_rss_bytes": 683192320,
+        "system_cpu_percent": 2.73387801634049,
+        "process_cpu_percent": 0.08041279728595524,
+        "gpu_total_bytes": 8585740288,
+        "gpu_used_bytes": 1349218304,
+        "gpu_util_percent": 0,
+        "gpu_temperature_c": 39
+      },
+      "sentences": [
+        {
+          "language": "en",
+          "seconds": 0.3092535000760108,
+          "translation": "今天,我们讨论语言学习和技术。"
+        },
+        {
+          "language": "de",
+          "seconds": 0.38830699992831796,
+          "translation": "今天,我们就讨论电气工程的基本原则。"
+        },
+        {
+          "language": "en",
+          "seconds": 16.626809800043702,
+          "translation": "请比较这两种方法,并解释为什么第二次实验产生了不同的结果。"
+        },
+        {
+          "language": "de",
+          "seconds": 623.5028833999531,
+          "translation": "随着温度上升,粒子移动更快,压力增加。"
+        },
+        {
+          "language": "en",
+          "seconds": 0.6246682000346482,
+          "translation": "概率取决于可用的信息和模型中使用的假设。"
+        },
+        {
+          "language": "de",
+          "seconds": 0.46909329993650317,
+          "translation": "这个方程式描述了能量、质量和速度之间的联系。"
+        }
+      ],
+      "anomaly_review_required": true,
+      "exclude_from_selection": true,
+      "exclusion_reason": "Explicit review: 641.921s wall time with very low process CPU, two sentence timings 16.627s and 623.503s; abnormal stall. Cause unknown. Raw timing and memory snapshots retained; not evidence that 4 threads are inherently slow."
+    }
+  ],
+  "recommended_threads": 8,
+  "median_corpus_seconds": {
+    "4": 2.823699,
+    "6": 2.287935,
+    "8": 2.004053
+  },
+  "completed": true,
+  "final_resources": {
+    "ram_total_bytes": 16894451712,
+    "ram_available_bytes": 780488704,
+    "process_rss_bytes": 139247616,
+    "system_cpu_percent": 36.986301369863014,
+    "process_cpu_percent": 14.0625,
+    "gpu_total_bytes": 8585740288,
+    "gpu_used_bytes": 1349218304,
+    "gpu_util_percent": 0,
+    "gpu_temperature_c": 39
+  },
+  "valid_run_counts": {
+    "4": 1,
+    "6": 2,
+    "8": 2
+  },
+  "review_limitations": "Only one valid 4-thread run remains; no heavy retry was made under low available RAM. 6 and 8 threads each have two consistent short-corpus runs. 8 reduces median latency by about 12.4% relative to6, and consumes more CPU. No 90-minute power/thermal run was performed.",
+  "memory_guard_at_measurement_mib": {
+    "loaded": 256
+  },
+  "utility_guards_after_review_mib": {
+    "before_load": 1024,
+    "loaded_and_before_each_sentence": 512
+  }
+}

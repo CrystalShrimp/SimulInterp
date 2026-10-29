@@ -1,0 +1,13 @@
+{
+  "models_loaded": false,
+  "audio_captured": false,
+  "errors": [],
+  "main_minimized": true,
+  "owner_is_main": false,
+  "native_visible_when_main_minimized": true,
+  "native_topmost": true,
+  "native_tool_window": true,
+  "show_keeps_foreground": true,
+  "native_visible_when_main_hidden": true,
+  "overlay_closed": true
+}
